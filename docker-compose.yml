@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-   qinglong:
-     container_name: qinglong
+   ql:
+     container_name: ql
      image: whyour/qinglong:latest
      ports:
        - "5700:5700" 
